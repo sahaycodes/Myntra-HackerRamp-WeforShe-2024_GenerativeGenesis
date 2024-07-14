@@ -1,0 +1,141 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('exdressess-1548886538.gif') no-repeat center center/cover;
+    color: #333;
+}
+
+.try-on {
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    animation: fadeIn 1s ease-in;
+}
+
+h1 {
+    text-align: center;
+    color: #ff6f61; /* Accent color */
+    animation: slideInFade 1s ease-in-out; /* Slide-in and fade animation */
+}
+
+.sections {
+    display: flex;
+    justify-content: space-between;
+    animation: slideIn 1s ease-in;
+}
+
+.clothes, .models {
+    width: 45%;
+}
+
+.box {
+    border: 1px solid #ccc; /* Light border color */
+    padding: 20px; /* Padding inside the box */
+    border-radius: 10px; /* Rounded corners */
+    background: #fff; /* White background for the box */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin-bottom: 20px; /* Space below each box */
+}
+
+.product-row, .model-row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product, .model {
+    width: 30%;
+    margin: 10px;
+    cursor: pointer;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.product:hover, .model:hover {
+    transform: scale(1.05);
+}
+
+.product img, .model img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.try-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.try-button button {
+    background: #ff6f61;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.try-button button:hover {
+    background: #333;
+}
+
+.result {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.result-image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px; /* Adjust height as needed */
+    position: relative;
+}
+
+#resultImage {
+    max-width: 100%;
+    max-height: 50%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: none; /* Hide by default */
+}
+
+canvas {
+    max-width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: none; /* Hide by default */
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInFade {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
