@@ -45,18 +45,77 @@ Open Source has played a critical role in the growth and success of data science
 
 <h2>Technology Used🚀</h2>
 
-- `pandas`,
-- `numPy`,
-- `beautifulSoup`,
-- `sklearn`,
-- `seaborn` ,
-- `matplotlib`,
-- `Resnet50`.
-- `PowerBI`
-- `Neural Collaborative Filtering`,
-- `Lightning AI Studio`,
-- `Stable Diffusion`
 
+-`Python`
+- `pandas`
+- `numPy`
+- `beautifulSoup`
+- `sklearn`
+- `seaborn` 
+- `matplotlib`
+- `Resnet50`
+- `PowerBI`
+- `Neural Collaborative Filtering`
+- `Lightning AI Studio`
+- `Stable Diffusion`
+  
+
+
+<h2>Implementation</h2>
+<h2>1. GenZ Fashion Trends Forecasting</h2>
+
+Our project involves the analysis and categorization of **GenZ fashion styles from Instagram posts** using a series of data science and machine learning techniques.
+
+#### Stages
+
+1. **Data Collection:**
+   - Data is gathered from Instagram posts using the Apify platform. This includes images, likes, comments, and a sample of comments per post.
+
+2. **Image Segmentation:**
+   - Images from posts are processed using YOLO and SAM algorithms to isolate clothing items from the background. Resulting segmented images show only the clothes against a black background.
+
+3. **Feature Extraction and Dimensionality Reduction:**
+   - Segmented images are passed through an autoencoder to extract a compact representation (latent space) of the clothing items. PCA is then applied to reduce the dimensionality further.
+
+4. **Clustering:**
+   - The PCA-transformed latent spaces are clustered using the K-Means algorithm, creating distinct groups that represent different fashion styles.
+
+5. **Sentiment Analysis:**
+   - Comments associated with each post are analyzed using the AdaBoost algorithm to gauge public sentiment towards the fashion styles depicted in the posts.
+
+6. **Data Visualization:**
+   - A Power BI dashboard presents statistics for each fashion style cluster, including image counts, likes, comments, and sentiment distribution (positive, negative).
+
+#### Repository Structure
+
+The repository is structured as follows:
+
+- **data:** Contains datasets (raw and cleaned versions).
+- **models:** Stores machine learning model weights (excluding large SAM model).
+- **research:** Includes Jupyter notebooks used for clustering decisions and autoencoder training.
+- **images:** Subdirectories for original and segmented images.
+- **python scripts:** Series of scripts for data preprocessing, image downloading, segmentation, latent space creation, and clustering.
+- **Dashboard:** Power BI dashboard file for data visualization.
+
+#### Usage
+
+To use the project:
+1. Ensure Python environment is set up.
+2. Run Python scripts in the following order:
+   - `data_preprocessing.py`
+   - `download_images.py`
+   - `image_segmentation.py`
+   - `latent_space_creator.py`
+   - `latent_space_clustering.py`
+3. Use Power BI to explore the dashboard and visualized results.
+
+#### Technologies Used
+
+- **Python:** Programming language for the project.
+- **YOLO & SAM:** Algorithms for image segmentation.
+- **PCA & KMeans:** Techniques for dimensionality reduction and clustering.
+- **AdaBoost:** Algorithm for sentiment analysis.
+- **Power BI:** Tool for data visualization and dashboard creation.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 This project follows the [MIT License](/LICENSE).
