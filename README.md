@@ -6,12 +6,7 @@
 <img src="https://forthebadge.com/images/badges/powered-by-responsibility.svg" />
   <br>
   <img src="https://img.shields.io/github/repo-size/Myntra-WeforShe-2024_GenerativeGenesis/sahaycodes?style=for-the-badge" />
-  <img src="https://img.shields.io/github/issues/Myntra-WeforShe-2024_GenerativeGenesis/sahaycodes?style=for-the-badge" />
-  <img src="https://img.shields.io/github/license/Myntra-WeforShe-2024_GenerativeGenesis/sahaycodes?style=for-the-badge" />
 
-  <img src="https://img.shields.io/github/contributors/Myntra-WeforShe-2024_GenerativeGenesis/sahaycodes?style=for-the-badge" />
-  
-  <img src="https://img.shields.io/github/stars/Myntra-WeforShe-2024_GenerativeGenesis/sahaycodes?style=for-the-badge" />
   </div>
 Myntra-WeforShe-2024_GenerativeGenesis is an open-source project aimed at beginners who want to learn about Data Science, Machine Learning, Deep Learning, and Reinforcement Learning algorithms in Python. This project aims to provide a platform for beginners to implement the relevant algorithms in Python.
 
