@@ -4,8 +4,6 @@
 <img src="https://forthebadge.com/images/badges/built-with-love.svg" />
 <img src="https://forthebadge.com/images/badges/uses-brains.svg" />
 <img src="https://forthebadge.com/images/badges/powered-by-responsibility.svg" />
-  <br>
-<img src="https://img.shields.io/github/repo-size/Myntra-WeforShe-2024_GenerativeGenesis/sahaycodes?style=for-the-badge" />
 
 <h2>Table of Contents🧾</h2>
 
@@ -179,7 +177,15 @@ ResNet50 is utilized for recommending clothes based on visual features extracted
 - **Personalization:**
   - Enhance shopping experience with realistic virtual try-ons.
   - Empower users to make informed fashion choices based on visual simulations.
- 
+
+ ![image](https://github.com/user-attachments/assets/c10d8cfb-a993-4a4f-8f6a-30e38cb02812)
+ ![image](https://github.com/user-attachments/assets/057711dd-5739-4bd8-9657-6314b957ec6a)
+ ![image](https://github.com/user-attachments/assets/ce28a844-4e5a-4724-9410-e3042b149085)
+ ![image](https://github.com/user-attachments/assets/8f5aa4f0-dc88-4a80-b2aa-39f5ae128a10)
+
+
+
+
   
  
 
