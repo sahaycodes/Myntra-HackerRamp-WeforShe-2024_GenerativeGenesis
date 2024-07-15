@@ -22,7 +22,14 @@
   </div>
 Myntra-WeforShe-2024_GenerativeGenesis is an open-source project aimed at beginners who want to learn about Data Science, Machine Learning, Deep Learning, and Reinforcement Learning algorithms in Python. This project aims to provide a platform for beginners to implement the relevant algorithms in Python.
 
-## Overview
+<!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+<h2>Introduction📌</h2>
+
+This is an innovative machine learning project that utilizes patient reviews with many other attributes to analyze and evaluate the effectiveness of different drugs in treating specific conditions. By training on a vast dataset of patient experiences, the model can provide insightful ratings for the available drugs, based on their real-world usage.<br><br>
+The project demonstrates the power of advanced machine learning techniques to extract meaningful insights from unstructured data, ultimately enabling more informed decision-making in the healthcare industry.
+
+<!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
 Data Science, Machine Learning, Deep Learning, Reinforcement Learning, and Open Source are all closely related, each building on the foundation of the previous concept.
 
