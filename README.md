@@ -25,23 +25,13 @@
 <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
 <h2>Introduction📌</h2>
+Fashion today is intricately intertwined with the influence of social media and the rise of influential figures known as influencers. Among Gen-Z, these influencers play a pivotal role in shaping micro trends—subtle yet powerful shifts in style and personal expression. To navigate this dynamic landscape effectively, we've developed an Automated Machine Learning Ecosystem. This system identifies and tracks the top fashion influencers across our country, continuously updating to include emerging talents based on their performance metrics.
 
-This is an innovative machine learning project that utilizes patient reviews with many other attributes to analyze and evaluate the effectiveness of different drugs in treating specific conditions. By training on a vast dataset of patient experiences, the model can provide insightful ratings for the available drugs, based on their real-world usage.<br><br>
-The project demonstrates the power of advanced machine learning techniques to extract meaningful insights from unstructured data, ultimately enabling more informed decision-making in the healthcare industry.
+**Methodology:**
+Our approach is structured around the Gen-Z Story Canvas, a series of 5-6 visually engaging story slides shared quarterly on social media. These stories vividly capture the shopping habits and aesthetic preferences of our users, resonating deeply within their community. Utilizing advanced AI capabilities, our recommendation system analyzes extensive data including purchase histories, customer preferences, and real-time market trends to tailor bespoke product suggestions. Transparency is key; our use of Explainable AI ensures users understand how and why each recommendation is made.
 
-<!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
-
-Data Science, Machine Learning, Deep Learning, Reinforcement Learning, and Open Source are all closely related, each building on the foundation of the previous concept.
-
-Data Science involves the use of statistical and computational methods to analyze and interpret complex data sets. Open-source tools and libraries like Python and R, along with their respective ecosystems of libraries, have been critical to the democratization of data science, making it easier and more accessible for researchers, businesses, and individuals to analyze and make sense of data.
-
-Machine Learning is a subfield of data science that focuses on the development of algorithms and models that can learn from data and make predictions or decisions without being explicitly programmed. Open-source tools like scikit-learn, TensorFlow, and Keras have been instrumental in the growth and innovation of machine learning, making it easier for researchers and developers to build and train models, and deploy them into real-world applications.
-
-Deep Learning is a subfield of machine learning that focuses on building and training neural networks, which are capable of learning and making predictions from very large and complex data sets. Open-source libraries like TensorFlow and PyTorch have been instrumental in the development and democratization of deep learning, providing a vast array of tools and algorithms for building and training neural networks, and enabling researchers and businesses to develop cutting-edge AI applications.
-
-Reinforcement Learning is a subfield of machine learning that involves training agents to make decisions in an environment to maximize a reward signal. Open-source libraries like OpenAI's Gym and Stable Baselines have made it easier for researchers and developers to experiment with and develop reinforcement learning algorithms and models, and deploy them into real-world applications.
-
-Open Source has played a critical role in the growth and success of data science, machine learning, deep learning, and reinforcement learning. The collaborative nature of open source allows for faster development and innovation, enables customization and extension of existing tools and libraries, and fosters a supportive community of users and contributors. Additionally, open source promotes transparency and accountability, making it easier for researchers and developers to share their work and reproduce their results, advancing the field as a whole. Overall, open source has been essential to the democratization of AI, enabling more people to participate in its development and benefit from its applications.
+**Enhanced User Experience:**
+We prioritize inclusivity and accessibility with a multilingual, audio-supported interface that adapts to diverse user needs in real-time. Central to our ecosystem is the Style-based studio, where AI-generated human models with customizable size proportions allow users to virtually try on clothing tailored to their unique body shapes. This innovative feature empowers Gen-Z to make informed fashion choices confidently, revolutionizing their online shopping experience.
 
 <h2>Technology Used🚀</h2>
 
