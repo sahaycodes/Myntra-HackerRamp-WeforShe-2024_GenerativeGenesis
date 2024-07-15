@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Generation with OOTDiffusion</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #343a40;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            background-color: #ff3f6c;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            margin: 0 10px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 10px;
+        }
+        h1, h2 {
+            color: #ff3f6c;
+        }
+        button {
+            background-color: #ff3f6c;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #e7335a;
+        }
+        .nav-content {
+            display: none;
+        }
+        .nav-content.active {
+            display: block;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        .uploaded-images {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .uploaded-images img {
+            width: 48%;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#" onclick="showContent('simpleMode')">Simple Mode</a>
+        <a href="#" onclick="showContent('fullBodyMode')">Full Body Mode</a>
+    </div>
+
+    <div class="container">
+        <div id="simpleMode" class="nav-content active">
+            <h1>Simple Mode</h1>
+            <input type="file" id="vtonImgSimple" accept="image/*" onchange="displayUploadedImage('vtonImgSimple', 'vtonImgSimpleDisplay')"><br><br>
+            <input type="file" id="garmImgSimple" accept="image/*" onchange="displayUploadedImage('garmImgSimple', 'garmImgSimpleDisplay')"><br><br>
+            <button onclick="generateImageSimple()">Generate Image</button>
+            <div class="uploaded-images">
+                <div>
+                    <h3>Model Image:</h3>
+                    <img id="vtonImgSimpleDisplay" src="" alt="Model Image">
+                </div>
+                <div>
+                    <h3>Garment Image:</h3>
+                    <img id="garmImgSimpleDisplay" src="" alt="Garment Image">
+                </div>
+            </div>
+            <div id="outputSimple"></div>
+        </div>
+
+        <div id="fullBodyMode" class="nav-content">
+            <h1>Full Body Mode</h1>
+            <input type="file" id="vtonImgFull" accept="image/*" onchange="displayUploadedImage('vtonImgFull', 'vtonImgFullDisplay')"><br><br>
+            <input type="file" id="garmImgFull" accept="image/*" onchange="displayUploadedImage('garmImgFull', 'garmImgFullDisplay')"><br><br>
+            <select id="typeFull">
+                <option value="1">Lower-body</option>
+                <option value="0">Upper-body</option>
+                <option value="2">Dress</option>
+            </select><br><br>
+            <button onclick="generateImageFull()">Generate Image</button>
+            <div class="uploaded-images">
+                <div>
+                    <h3>Model Image:</h3>
+                    <img id="vtonImgFullDisplay" src="" alt="Model Image">
+                </div>
+                <div>
+                    <h3>Garment Image:</h3>
+                    <img id="garmImgFullDisplay" src="" alt="Garment Image">
+                </div>
+            </div>
+            <div id="outputFull"></div>
+        </div>
+    </div>
+
+    <script>
+        const apiUrl = "https://tryonnew.onrender.com";
+
+        function showContent(id) {
+            document.querySelectorAll('.nav-content').forEach(div => {
+                div.classList.remove('active');
+            });
+            document.getElementById(id).classList.add('active');
+        }
+
+        function displayUploadedImage(inputId, imgId) {
+            const input = document.getElementById(inputId);
+            const img = document.getElementById(imgId);
+            const file = input.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    img.src = e.target.result;
+                }
+                reader.readAsDataURL(file);
+            }
+        }
+
+        async function generateImageSimple() {
+            const vtonImg = document.getElementById('vtonImgSimple').files[0];
+            const garmImg = document.getElementById('garmImgSimple').files[0];
+            const formData = new FormData();
+            formData.append('vton_img', vtonImg);
+            formData.append('garm_img', garmImg);
+
+            const response = await fetch(`${apiUrl}/simple/`, {
+                method: 'POST',
+                body: formData
+            });
+
+            const blob = await response.blob();
+            const url = URL.createObjectURL(blob);
+            document.getElementById('outputSimple').innerHTML = `<h3>Generated Image:</h3><img src="${url}" alt="Generated Image">`;
+        }
+
+        async function generateImageFull() {
+            const vtonImg = document.getElementById('vtonImgFull').files[0];
+            const garmImg = document.getElementById('garmImgFull').files[0];
+            const type = document.getElementById('typeFull').value;
+            const formData = new FormData();
+            formData.append('vton_img', vtonImg);
+            formData.append('garm_img', garmImg);
+            formData.append('type', type);
+
+            const response = await fetch(`${apiUrl}/fullbody/`, {
+                method: 'POST',
+                body: formData
+            });
+
+            const blob = await response.blob();
+            const url = URL.createObjectURL(blob);
+            document.getElementById('outputFull').innerHTML = `<h3>Generated Image:</h3><img src="${url}" alt="Generated Image">`;
+        }
+    </script>
+</body>
+</html>
