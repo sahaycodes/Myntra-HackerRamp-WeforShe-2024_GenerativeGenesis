@@ -19,8 +19,8 @@
 <br>
 
 
-  </div>
-Myntra-WeforShe-2024_GenerativeGenesis is an open-source project aimed at beginners who want to learn about Data Science, Machine Learning, Deep Learning, and Reinforcement Learning algorithms in Python. This project aims to provide a platform for beginners to implement the relevant algorithms in Python.
+</div>
+
 
 <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
@@ -43,27 +43,21 @@ Reinforcement Learning is a subfield of machine learning that involves training 
 
 Open Source has played a critical role in the growth and success of data science, machine learning, deep learning, and reinforcement learning. The collaborative nature of open source allows for faster development and innovation, enables customization and extension of existing tools and libraries, and fosters a supportive community of users and contributors. Additionally, open source promotes transparency and accountability, making it easier for researchers and developers to share their work and reproduce their results, advancing the field as a whole. Overall, open source has been essential to the democratization of AI, enabling more people to participate in its development and benefit from its applications.
 
-## Contributing to MindWave
+<h2>Technology Used🚀</h2>
 
-- If you have a new idea, create an issue and wait for it to be assigned before starting work on it.
-- If you want to submit an improvement to an existing algorithm, create an issue describing your improvement in detail to facilitate analysis by others.
-- Issues will be assigned on a first come, first serve basis, and you can ask to be assigned by commenting on the issue. It is preferred that you work only on the issue assigned to you.
-- Check out the reference code in the relevant directory and write your own code basis that.
-- Fork the repository (first time) and push your code to create a pull request (PR).
-- All pull requests must be made from a branch. Create a separate branch for each issue you are working on and make the PR once it is complete.
-- The files should be uploaded directly into the corresponding folder (eg. Machine Learning, Deep Learning, etc.) and linked in the README.md file of the respective folder. Do not create new folders within the concept folders unless instructed to do so.
-- Please be courteous to the reviewers as they will always be polite to you.
+- `pandas`,
+- `numPy`,
+- `beautifulSoup`,
+- `sklearn`,
+- `seaborn` ,
+- `matplotlib`,
+- `Resnet50`.
+- `PowerBI`
+- `Neural Collaborative Filtering`,
+- `Lightning AI Studio`,
+- `Stable Diffusion`
 
-## Tech Stack Used
-![jupyter](https://img.shields.io/badge/jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-
-
-## Code of Conduct 
-
-You can find our Code of Conduct [here](/CODE_OF_CONDUCT.md).
-
-## License
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 This project follows the [MIT License](/LICENSE).
 
