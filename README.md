@@ -86,9 +86,9 @@ Our project involves the analysis and categorization of **GenZ fashion styles fr
 6. **Data Visualization:**
    - A Power BI dashboard presents statistics for each fashion style cluster, including image counts, likes, comments, and sentiment distribution (positive, negative).
 
-#### Repository Structure
+#### Folder Structure - GenZ Fashion Trends Forecasting
 
-The repository is structured as follows:
+The folder is structured as follows:
 
 - **data:** Contains datasets (raw and cleaned versions).
 - **models:** Stores machine learning model weights (excluding large SAM model).
