@@ -27,6 +27,7 @@
 <h2>Introduction📌</h2>
 Fashion today is intricately intertwined with the influence of social media and the rise of influential figures known as influencers. Among Gen-Z, these influencers play a pivotal role in shaping micro trends—subtle yet powerful shifts in style and personal expression. To navigate this dynamic landscape effectively, we've developed an Automated Machine Learning Ecosystem. This system identifies and tracks the top fashion influencers across our country, continuously updating to include emerging talents based on their performance metrics.
 
+
 **Methodology:**
 Our approach is structured around the Gen-Z Story Canvas, a series of 5-6 visually engaging story slides shared quarterly on social media. These stories vividly capture the shopping habits and aesthetic preferences of our users, resonating deeply within their community. Utilizing advanced AI capabilities, our recommendation system analyzes extensive data including purchase histories, customer preferences, and real-time market trends to tailor bespoke product suggestions. Transparency is key; our use of Explainable AI ensures users understand how and why each recommendation is made.
 
