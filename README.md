@@ -99,9 +99,13 @@ To use the project:
    - `latent_space_clustering.py`
 3. Use Power BI to explore the dashboard and visualized results.
 
-- ![WhatsApp Image 2024-07-15 at 22 08 41](https://github.com/user-attachments/assets/9ed6bce8-678d-40b8-a2bc-a149a63090c8)
-- ![WhatsApp Image 2024-07-15 at 22 09 06](https://github.com/user-attachments/assets/860871f9-79d3-4dda-a131-04010d5dedd3)
-- ![WhatsApp Image 2024-07-15 at 22 10 19](https://github.com/user-attachments/assets/072669a1-83ba-4abf-8b2e-0fbc538f4a7d)
+![WhatsApp Image 2024-07-15 at 23 55 36](https://github.com/user-attachments/assets/a78bb292-79cc-48e2-b0e6-9785561a5bc6)
+![WhatsApp Image 2024-07-15 at 23 55 11](https://github.com/user-attachments/assets/2825c3ff-5a4a-4874-a8e0-2ee02976e939)
+![WhatsApp Image 2024-07-15 at 23 55 24](https://github.com/user-attachments/assets/ecb1f81e-743e-4ff4-b6df-9890395a7093)
+
+
+
+
 
 
 
