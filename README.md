@@ -168,6 +168,19 @@ ResNet50 is utilized for recommending clothes based on visual features extracted
   - Enhance shopping experience with realistic virtual try-ons.
   - Empower users to make informed fashion choices based on visual simulations.
 
+
+<h2>Future Works</h2> 
+
+**Selling Assistant:** use of “Explainable AI” to explain the recommendation  to the user based on the algorithm
+**Thrifting:** 
+Engaging in sustainable Practices by promoting Reuse and Recycle within our ecosystem
+**Multilingual Support :**
+Catering to the diversity by providing support to all the major Indian languages  
+**Speech-to-Speech Support:**
+With the diversity of Indian languages, audio based services on our chatbot and Personal AI assistants, to cater to the naive users and offer a seamless hands-free experience.
+
+
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 This project follows the [MIT License](/LICENSE).
