@@ -148,6 +148,26 @@ ResNet50 is utilized for recommending clothes based on visual features extracted
    - Calculate similarities between items based on their feature vectors.
    - Recommend visually similar clothes to users based on their preferences and browsing history.
 
+<h2> ⚡ AI Human Models for Virtual Try-On ⚡ </h2>
+
+#### Selection and Customization
+
+- **Data-driven Models:**
+  - Develop AI-generated human models from diverse body shape datasets.
+  - Customize models based on user input or predefined profiles.
+
+#### Virtual Try-On Experience
+
+- **Clothing Integration:**
+  - Digitize clothes as 3D models or high-quality images.
+  - Enable users to visualize clothing on AI-generated models.
+
+#### Benefits
+
+- **Personalization:**
+  - Enhance shopping experience with realistic virtual try-ons.
+  - Empower users to make informed fashion choices based on visual simulations.
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 This project follows the [MIT License](/LICENSE).
