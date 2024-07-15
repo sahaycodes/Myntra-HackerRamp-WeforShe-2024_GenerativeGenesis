@@ -12,7 +12,6 @@
 - [Introduction📌](#introduction)
 - [Technology Used🚀](#technology-used)
 - [Implementation🚀](#implementation)
-- [Results Analysis Screenshots📈](#results-analysis-screenshots)
 - [Further Works💫](#further-works)
 - [Contributing is fun🧡](#contributing-is-fun)
 <br>
@@ -24,6 +23,7 @@
 <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
 <h2>Introduction📌</h2>
+
 - Fashion today is intricately intertwined with the influence of social media and the rise of influential figures known as influencers. Among Gen-Z, these influencers play a pivotal role in shaping micro trends—subtle yet powerful shifts in style and personal expression. To navigate this dynamic landscape effectively, we've developed an Automated Machine Learning Ecosystem. This system identifies and tracks the top fashion influencers across our country, continuously updating to include emerging talents based on their performance metrics.
 
 
@@ -47,7 +47,9 @@
 - `PowerBI`
 - `Neural Collaborative Filtering`
 - `Lightning AI Studio`
-- `Stable Diffusion`
+- `Stable Diffusion`,
+- `docker`
+- `html/css/js`
   
 
 
@@ -99,6 +101,13 @@ To use the project:
    - `latent_space_clustering.py`
 3. Use Power BI to explore the dashboard and visualized results.
 
+- ![WhatsApp Image 2024-07-15 at 22 08 41](https://github.com/user-attachments/assets/9ed6bce8-678d-40b8-a2bc-a149a63090c8)
+- ![WhatsApp Image 2024-07-15 at 22 09 06](https://github.com/user-attachments/assets/860871f9-79d3-4dda-a131-04010d5dedd3)
+- ![WhatsApp Image 2024-07-15 at 22 10 19](https://github.com/user-attachments/assets/072669a1-83ba-4abf-8b2e-0fbc538f4a7d)
+
+
+
+
 #### Technologies Used
 
 - **Python:** Programming language for the project.
@@ -147,6 +156,9 @@ ResNet50 is utilized for recommending clothes based on visual features extracted
 4. **Similarity Matching:**
    - Calculate similarities between items based on their feature vectors.
    - Recommend visually similar clothes to users based on their preferences and browsing history.
+  
+   ![WhatsApp Image 2024-07-15 at 21 54 55](https://github.com/user-attachments/assets/48bd211a-b322-4747-b708-3213d0b902f5)
+
 
 <h2> ⚡ AI Human Models for Virtual Try-On ⚡ </h2>
 
@@ -167,6 +179,8 @@ ResNet50 is utilized for recommending clothes based on visual features extracted
 - **Personalization:**
   - Enhance shopping experience with realistic virtual try-ons.
   - Empower users to make informed fashion choices based on visual simulations.
+ 
+
 
 
 <h2>Future Works</h2> 
