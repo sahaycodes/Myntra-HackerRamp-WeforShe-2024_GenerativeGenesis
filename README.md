@@ -167,14 +167,14 @@ ResNet50 is utilized for recommending clothes based on visual features extracted
 #### Selection and Customization
 
 - **Data-driven Models:**
-  - Develop AI-generated human models from diverse body shape datasets.
-  - Customize models based on user input or predefined profiles.
+  - With Stable Diffusion, Developed AI-generated human models from diverse body shape datasets.
+  - Customized models based on user input or predefined profiles.
 
 #### Virtual Try-On Experience
 
 - **Clothing Integration:**
-  - Digitize clothes as 3D models or high-quality images.
-  - Enable users to visualize clothing on AI-generated models.
+  - Digitized clothes as 3D models on high-quality images.
+  - Enabled users to visualize clothing on AI-generated models using Stable Diffusion.
 
 #### Benefits
 
